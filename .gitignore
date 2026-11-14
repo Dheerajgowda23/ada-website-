@@ -1,0 +1,51 @@
+# --- Secrets & environment ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# --- OS / editor cruft ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
+
+# --- Logs ---
+*.log
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Node / JS ---
+node_modules/
+dist/
+build/
+.next/
+out/
+.cache/
+*.tsbuildinfo
+
+# --- Go / Rust / Java ---
+target/
+*.class
+
+# --- Databases & local data ---
+*.db
+*.sqlite3
+*.sqlite
